@@ -1,0 +1,2 @@
+Polymer("ky-headerpanel", {});
+

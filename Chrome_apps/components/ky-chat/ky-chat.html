@@ -1,0 +1,24 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../ky-chatpost/ky-chatpost.html">
+<link rel="import" href="../ky-button/ky-button.html">
+
+<polymer-element name="ky-chat" attributes="geturl seturl update" layout vertical>
+
+<template>
+    <link rel="stylesheet" href="./ky-chat.css">
+    
+    <div id="postContainer" flex>
+        <template repeat="{{post in data.posts}}">
+            <ky-chatpost username="{{post.username}}">{{post.text}}</ky-chatpost>
+        </template>
+    </div>
+    <form id="form" layout horizontal>
+        <input id="inputName" type="text" placeholder="名前">
+        <input id="inputText" type="text" placeholder="本文" flex>
+        <input type="submit" value="送信">
+    </form>
+</template>
+
+<script src="./ky-chat.js"></script>
+
+</polymer-element>

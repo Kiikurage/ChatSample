@@ -1,0 +1,23 @@
+{
+    "name": "TubePod",
+    "description": "Listen Youtube",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": [
+        "http://silverlance.sakura.ne.jp/*",
+        "storage"
+    ],
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "sockets": {
+        "tcp": {
+            "connect": ""
+        },
+        "tcpServer": {
+            "listen": ""
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>38C55E98-F0C0-4DDC-934B-50CF1CEEB3DD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA0F42875910B59FBB1F61AC7B22E952461FBD75</key>
+		<string>https://github.com/kikura-yuichiro/ChatSample_Objective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA0F42875910B59FBB1F61AC7B22E952461FBD75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kikura-yuichiro/ChatSample_Objective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA0F42875910B59FBB1F61AC7B22E952461FBD75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA0F42875910B59FBB1F61AC7B22E952461FBD75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChatSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

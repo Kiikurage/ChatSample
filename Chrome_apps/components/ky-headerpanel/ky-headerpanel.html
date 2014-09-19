@@ -1,0 +1,20 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../ky-header/ky-header.html">
+
+<polymer-element name="ky-headerpanel" layout vertical>
+
+    <template>
+        <link rel="stylesheet" href="./ky-headerpanel.css">
+
+        <div id="header">
+            <content select="ky-header"></content>
+        </div>
+
+        <div id="body" flex layout vertical>
+            <content></content>
+        </div>
+    </template>
+
+    <script src="./ky-headerpanel.js"></script>
+
+</polymer-element>

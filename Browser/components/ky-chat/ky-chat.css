@@ -1,0 +1,9 @@
+#postContainer {
+  background: #fcfcfc;
+  padding: 5px 0;
+  overflow: scroll;
+}
+form {
+  height: 50px;
+  background: #fff;
+}

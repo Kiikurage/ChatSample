@@ -1,0 +1,18 @@
+<link rel="import" href="../polymer/polymer.html">
+<polymer-element name="ky-chatpost" attributes="username" layout horizontal>
+
+<template>
+    <link rel="stylesheet" href="./ky-chatpost.css">
+    
+    <header id="header">
+        <span>{{username}}</span>
+    </header>
+
+    <div id="body" flex>
+        <pre id="text"><content></content></pre>
+    </div>
+</template>
+
+<script src="./ky-chatpost.js"></script>
+
+</polymer-element>
