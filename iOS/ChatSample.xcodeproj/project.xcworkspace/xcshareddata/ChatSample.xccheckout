@@ -10,14 +10,14 @@
 	<string>ChatSample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CA0F42875910B59FBB1F61AC7B22E952461FBD75</key>
+		<key>4FC2077286C30BAFB2E730F5199F0642C535C440</key>
 		<string>https://github.com/kikura-yuichiro/ChatSample_Objective-C.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ChatSample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CA0F42875910B59FBB1F61AC7B22E952461FBD75</key>
+		<key>4FC2077286C30BAFB2E730F5199F0642C535C440</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CA0F42875910B59FBB1F61AC7B22E952461FBD75</string>
+	<string>4FC2077286C30BAFB2E730F5199F0642C535C440</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CA0F42875910B59FBB1F61AC7B22E952461FBD75</string>
+			<string>4FC2077286C30BAFB2E730F5199F0642C535C440</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ChatSample</string>
 		</dict>

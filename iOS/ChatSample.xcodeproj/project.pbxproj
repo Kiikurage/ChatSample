@@ -12,8 +12,6 @@
 		EF459E4B19CC5C3C0040806B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF459E4919CC5C3C0040806B /* Main.storyboard */; };
 		EF459E4D19CC5C3C0040806B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF459E4C19CC5C3C0040806B /* Images.xcassets */; };
 		EF459E5019CC5C3C0040806B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF459E4E19CC5C3C0040806B /* LaunchScreen.xib */; };
-		EF459E5C19CC5C3C0040806B /* ChatSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF459E5B19CC5C3C0040806B /* ChatSampleTests.m */; };
-		EFF5D78019CC736500AC208C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5D77F19CC736500AC208C /* BaseModel.m */; };
 		EFF5D78419CC73D100AC208C /* PostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5D78319CC73D100AC208C /* PostModel.m */; };
 		EFF5D78E19CC7ED700AC208C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5D78D19CC7ED700AC208C /* MainViewController.m */; };
 		EFF5D79019CC805600AC208C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5D77F19CC736500AC208C /* BaseModel.m */; };
@@ -21,16 +19,6 @@
 		EFF5D79919CC989800AC208C /* PostViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF5D79819CC989800AC208C /* PostViewCell.xib */; };
 		EFF5D79C19CC98EF00AC208C /* PostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5D79B19CC98EF00AC208C /* PostViewCell.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EF459E5619CC5C3C0040806B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF459E3419CC5C3C0040806B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF459E3B19CC5C3C0040806B;
-			remoteInfo = ChatSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF459E3C19CC5C3C0040806B /* ChatSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +29,6 @@
 		EF459E4A19CC5C3C0040806B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF459E4C19CC5C3C0040806B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF459E4F19CC5C3C0040806B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EF459E5519CC5C3C0040806B /* ChatSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF459E5A19CC5C3C0040806B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF459E5B19CC5C3C0040806B /* ChatSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSampleTests.m; sourceTree = "<group>"; };
 		EFF5D77F19CC736500AC208C /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		EFF5D78119CC737000AC208C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		EFF5D78219CC73D100AC208C /* PostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostModel.h; sourceTree = "<group>"; };
@@ -65,13 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF459E5219CC5C3C0040806B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				EF459E3E19CC5C3C0040806B /* ChatSample */,
-				EF459E5819CC5C3C0040806B /* ChatSampleTests */,
 				EF459E3D19CC5C3C0040806B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				EF459E3C19CC5C3C0040806B /* ChatSample.app */,
-				EF459E5519CC5C3C0040806B /* ChatSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +75,7 @@
 				EF459E6519CC5D460040806B /* Classes */,
 				EF459E4319CC5C3C0040806B /* AppDelegate.h */,
 				EF459E4419CC5C3C0040806B /* AppDelegate.m */,
-				EF459E4919CC5C3C0040806B /* Main.storyboard */,
-				EFF5D79819CC989800AC208C /* PostViewCell.xib */,
 				EF459E4C19CC5C3C0040806B /* Images.xcassets */,
-				EF459E4E19CC5C3C0040806B /* LaunchScreen.xib */,
 				EF459E3F19CC5C3C0040806B /* Supporting Files */,
 			);
 			path = ChatSample;
@@ -113,23 +86,6 @@
 			children = (
 				EF459E4019CC5C3C0040806B /* Info.plist */,
 				EF459E4119CC5C3C0040806B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EF459E5819CC5C3C0040806B /* ChatSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				EF459E5B19CC5C3C0040806B /* ChatSampleTests.m */,
-				EF459E5919CC5C3C0040806B /* Supporting Files */,
-			);
-			path = ChatSampleTests;
-			sourceTree = "<group>";
-		};
-		EF459E5919CC5C3C0040806B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF459E5A19CC5C3C0040806B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,6 +103,7 @@
 		EF459E6619CC5D4B0040806B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EF6B5CEE19CCB0F6009C9C45 /* xib */,
 				EFF5D79A19CC98EF00AC208C /* PostViewCell.h */,
 				EFF5D79B19CC98EF00AC208C /* PostViewCell.m */,
 			);
@@ -162,6 +119,16 @@
 				EFF5D78319CC73D100AC208C /* PostModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EF6B5CEE19CCB0F6009C9C45 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				EF459E4919CC5C3C0040806B /* Main.storyboard */,
+				EF459E4E19CC5C3C0040806B /* LaunchScreen.xib */,
+				EFF5D79819CC989800AC208C /* PostViewCell.xib */,
+			);
+			name = xib;
 			sourceTree = "<group>";
 		};
 		EFF5D78519CC7AAC00AC208C /* ViewController */ = {
@@ -195,24 +162,6 @@
 			productReference = EF459E3C19CC5C3C0040806B /* ChatSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF459E5419CC5C3C0040806B /* ChatSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF459E6219CC5C3C0040806B /* Build configuration list for PBXNativeTarget "ChatSampleTests" */;
-			buildPhases = (
-				EF459E5119CC5C3C0040806B /* Sources */,
-				EF459E5219CC5C3C0040806B /* Frameworks */,
-				EF459E5319CC5C3C0040806B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF459E5719CC5C3C0040806B /* PBXTargetDependency */,
-			);
-			name = ChatSampleTests;
-			productName = ChatSampleTests;
-			productReference = EF459E5519CC5C3C0040806B /* ChatSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,10 +173,6 @@
 				TargetAttributes = {
 					EF459E3B19CC5C3C0040806B = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					EF459E5419CC5C3C0040806B = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = EF459E3B19CC5C3C0040806B;
 					};
 				};
 			};
@@ -245,7 +190,6 @@
 			projectRoot = "";
 			targets = (
 				EF459E3B19CC5C3C0040806B /* ChatSample */,
-				EF459E5419CC5C3C0040806B /* ChatSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +203,6 @@
 				EF459E5019CC5C3C0040806B /* LaunchScreen.xib in Resources */,
 				EFF5D79919CC989800AC208C /* PostViewCell.xib in Resources */,
 				EF459E4D19CC5C3C0040806B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF459E5319CC5C3C0040806B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,24 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF459E5119CC5C3C0040806B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFF5D78019CC736500AC208C /* BaseModel.m in Sources */,
-				EF459E5C19CC5C3C0040806B /* ChatSampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EF459E5719CC5C3C0040806B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF459E3B19CC5C3C0040806B /* ChatSample */;
-			targetProxy = EF459E5619CC5C3C0040806B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF459E4919CC5C3C0040806B /* Main.storyboard */ = {
@@ -421,40 +341,6 @@
 			};
 			name = Release;
 		};
-		EF459E6319CC5C3C0040806B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChatSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSample.app/ChatSample";
-			};
-			name = Debug;
-		};
-		EF459E6419CC5C3C0040806B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChatSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSample.app/ChatSample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,15 +358,6 @@
 			buildConfigurations = (
 				EF459E6019CC5C3C0040806B /* Debug */,
 				EF459E6119CC5C3C0040806B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF459E6219CC5C3C0040806B /* Build configuration list for PBXNativeTarget "ChatSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF459E6319CC5C3C0040806B /* Debug */,
-				EF459E6419CC5C3C0040806B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
